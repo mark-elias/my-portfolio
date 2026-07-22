@@ -19,7 +19,7 @@ function AnimatedBadgeList({ badgeList }: Props) {
               backgroundColor: bgColor,
               color: badgeStyle.styles.textColor || "#000",
               animationDelay: `${index * 0.6}s`,
-              // @ts-ignore - CSS custom property
+              // @ts-expect-error - CSS custom property
               "--glow-color": bgColor,
             }}
           >
