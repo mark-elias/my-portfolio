@@ -1,5 +1,5 @@
 // badges
-import { BadgeList } from "@/components/organisms";
+import AnimatedBadgeList from "@/components/organisms/AnimatedBadgeList";
 
 const coreStack = [
   "TypeScript",
@@ -17,7 +17,7 @@ const coreStack = [
 function CoreStack() {
   return (
     <section className="flex justify-center">
-      <BadgeList badgeList={coreStack} />
+      <AnimatedBadgeList badgeList={coreStack} />
     </section>
   );
 }
