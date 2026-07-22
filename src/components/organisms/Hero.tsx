@@ -2,7 +2,7 @@ import { heroText } from "@/constants/hero.constants";
 
 function Hero() {
   return (
-    <section className="text-center">
+    <section className="text-center pb-0">
       <h3 className="italic">{heroText.subtitle}</h3>
       <h1 className="text-[30px] lg:text-[40px]">
         {heroText.title}

@@ -5,9 +5,9 @@ function HomePage() {
   return (
     <div>
       <Hero />
-      <CoreStack />
-      <Summary />
       <Contact />
+      <Summary />
+      <CoreStack />
     </div>
   );
 }
