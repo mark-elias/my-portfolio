@@ -64,7 +64,7 @@ export const skillCategories = [
   {
     id: "databases",
     name: "Databases",
-    skills: ["MongoDB", "MySQL"],
+    skills: ["MongoDB", "MySQL", "PostgreSQL"],
   },
   // auth
   {
@@ -79,23 +79,29 @@ export const skillCategories = [
     skills: ["API Development", "TanStack Query", "Postman"],
   },
 
-  
-  
-  
-  
-  
-  
   // cloud and infrastructure
   {
     id: "cloud-and-infrastructure",
     name: "Cloud & Infrastructure",
-    skills: ["AWS EC2", "AWS S3"],
+    skills: ["AWS IAM", "AWS EC2", "AWS RDS", "AWS S3", "AWS CloudWatch"],
   },
-  // devops and ci/cd
+  // IaC
+  // {
+  //   id: "terraform",
+  //   name: "Terraform",
+  //   skills: ["Terraform"],
+  // },
+  // containerization
   {
-    id: "devops-and-ci-cd",
-    name: "DevOps & CI/CD",
-    skills: ["Docker", "Docker Compose", "GitHub Actions"],
+    id: "docker-containerization",
+    name: "Docker",
+    skills: ["Docker", "Docker Compose", "Docker Hub"],
+  },
+  // CI/CD
+  {
+    id: "cicd",
+    name: "CI/CD",
+    skills: ["GitHub Actions"],
   },
   // linux & server admin
   {
@@ -109,8 +115,6 @@ export const skillCategories = [
     name: "Networking & Security",
     skills: ["Nginx", "SSL", "DNS", "CORS"],
   },
-
- 
 
   // {
   //   id: "orms-odms",

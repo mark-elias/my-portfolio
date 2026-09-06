@@ -22,7 +22,7 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   Yarn: { backgroundColor: "#2C8EBB", textColor: "#FFFFFF" },
   PNPM: { backgroundColor: "#f9ad00", textColor: "#242526" },
   Bun: { backgroundColor: "#f472b6", textColor: "#FFFFFF" },
-  
+
   // ================= Frameworks ==============================
   // Frontend Frameworks
   React: { backgroundColor: "#61DAFB", textColor: "#000000" },
@@ -33,7 +33,7 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   "Nest.js": { backgroundColor: "#E0234E", textColor: "#FFFFFF" },
   Hono: { backgroundColor: "#E36002", textColor: "#FFFFFF" },
   Fastify: { backgroundColor: "#000000", textColor: "#FFFFFF" },
-  
+
   // Mac environment
   Homebrew: { backgroundColor: "#2e2a24", textColor: "#f9d094" },
 
@@ -43,7 +43,7 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   "TanStack Query": { backgroundColor: "#FF4154", textColor: "#FFFFFF" },
   Postman: { backgroundColor: "#FF6C37", textColor: "#FFFFFF" },
   Axios: { backgroundColor: "#5A29E4", textColor: "#FFFFFF" },
-  
+
   // ==================== Frontend ========================
   // CSS
   Tailwind: { backgroundColor: "#06B6D4", textColor: "#FFFFFF" },
@@ -94,8 +94,13 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
 
   // Cloud Services & Tools
   AWS: { backgroundColor: "#FF9900", textColor: "#000000" },
-  "AWS S3": { backgroundColor: "#FF9900", textColor: "#000000" },
+  "AWS IAM": { backgroundColor: "#FF9900", textColor: "#000000" },
   "AWS EC2": { backgroundColor: "#FF9900", textColor: "#000000" },
+  "AWS RDS": { backgroundColor: "#FF9900", textColor: "#000000" },
+  "AWS S3": { backgroundColor: "#FF9900", textColor: "#000000" },
+  "AWS CloudWatch": { backgroundColor: "#FF9900", textColor: "#000000" },
+  // IaC
+  Terraform: { backgroundColor: "#010101", textColor: "#FFFFFF" },
 
   // Real-time Communication
   WebSockets: { backgroundColor: "#010101", textColor: "#FFFFFF" },
@@ -106,16 +111,24 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   "Terminal/CLI": { backgroundColor: "#2C3E50", textColor: "#FFFFFF" },
   SSH: { backgroundColor: "#E74C3C", textColor: "#FFFFFF" },
   Vim: { backgroundColor: "#019733", textColor: "#FFFFFF" },
+  // process managers
+  PM2: { backgroundColor: "#2B7CFC", textColor: "#FFFFFF" },
 
-  // DevOps & Infrastructure
+  // Docker
   Docker: { backgroundColor: "#2496ED", textColor: "#FFFFFF" },
   "Docker Compose": { backgroundColor: "#2496ED", textColor: "#FFFFFF" },
+  "Docker Hub": { backgroundColor: "#2496ED", textColor: "#FFFFFF" },
+
+  // CI/CD
   "GitHub Actions": { backgroundColor: "#2088FF", textColor: "#FFFFFF" },
+
+  // Testing
+  Jest: { backgroundColor: "#010101", textColor: "#FFFFFF" },
+  Vitest: { backgroundColor: "#010101", textColor: "#FFFFFF" },
+
+  // Networking & Security
   Nginx: { backgroundColor: "#009639", textColor: "#FFFFFF" },
   Caddy: { backgroundColor: "#00C4A7", textColor: "#FFFFFF" },
-  PM2: { backgroundColor: "#2B7CFC", textColor: "#FFFFFF" },
-  
-  // Networking & Security
   SSL: { backgroundColor: "#010101", textColor: "#FFFFFF" },
   DNS: { backgroundColor: "#010101", textColor: "#FFFFFF" },
   CORS: { backgroundColor: "#010101", textColor: "#FFFFFF" },
