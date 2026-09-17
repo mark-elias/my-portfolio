@@ -7,7 +7,7 @@ import restaurantScreenshot from "@/assets/images/restaurant_screenshot.png";
 import rockPaperScissorsScreenshot from "@/assets/images/rockPaperScissors_screenshot.png";
 import kreativstormProjectScreenshot from "@/assets/images/kreativstormProject_screenshot.png";
 import weatherProjectScreenshot from "@/assets/images/weatherProject_screenshot.png";
-import easyBorderScreenshot from "@/assets/images/easyBorder_screenshot2.png";
+import easyBorderScreenshot from "@/assets/images/easyborder_screenshot2.png";
 // next.js
 import { Project } from "../types/project";
 
