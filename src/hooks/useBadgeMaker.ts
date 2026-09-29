@@ -66,9 +66,10 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   GitHub: { backgroundColor: "#181717", textColor: "#FFFFFF" },
 
   // Databases
-  MongoDB: { backgroundColor: "#47A248", textColor: "#FFFFFF" },
+  SQL: { backgroundColor: "#010101", textColor: "#FFFFFF" },
   MySQL: { backgroundColor: "#00758F", textColor: "#FFFFFF" },
   PostgreSQL: { backgroundColor: "#336791", textColor: "#FFFFFF" },
+  MongoDB: { backgroundColor: "#47A248", textColor: "#FFFFFF" },
 
   // ORMs & ODMs
   Mongoose: { backgroundColor: "#880000", textColor: "#FFFFFF" },

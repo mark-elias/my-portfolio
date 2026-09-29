@@ -16,7 +16,7 @@ export const projects: Project[] = [
     id: "easyborder",
     title: "Easy Border",
     description:
-      "UNDER CONSTRUCTION. EasyBorder provides reliable border wait times using official CBP data for all port of entries and crossing methods. Compare crossings, save your favorite lanes, and share your border crossing experiences with other travelers.",
+      "EasyBorder provides reliable border wait times using official CBP data for all port of entries and crossing methods. Compare crossings, save your favorite lanes, and share your border crossing experiences with other travelers.",
     image: easyBorderScreenshot,
     alt: "easy border project screenshot",
     siteLink: "https://easyborder.io",
@@ -31,6 +31,7 @@ export const projects: Project[] = [
       "PostgreSQL",
       "Docker",
       "AWS EC2",
+      "AWS RDS",
       "AWS S3",
       "GitHub Actions",
       "Nginx",

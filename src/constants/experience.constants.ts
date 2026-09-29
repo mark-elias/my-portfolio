@@ -12,17 +12,16 @@ export const experience = [
       "React",
       "Nest.js",
       "MongoDB",
-      "Mongoose",
+
+      // API & Data Fetching
+      "API Development",
+      "TanStack Query",
+      // "Axios",
 
       // Authentication & Security
       "JWT",
       "Cookies",
       "Passport.js",
-
-      // API & Data Fetching
-      "API Development",
-      "TanStack Query",
-      "Axios",
 
       // State Management & Forms
       "Redux Toolkit",
@@ -37,9 +36,9 @@ export const experience = [
       "Material UI",
 
       // Development Tools
-      "Postman",
+      // "Postman",
       "Git",
-      "Yarn",
+      // "Yarn",
 
       // Collaboration Tools
       "Figma",
