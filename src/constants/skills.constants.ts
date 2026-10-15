@@ -64,7 +64,7 @@ export const skillCategories = [
   {
     id: "databases",
     name: "Databases",
-    skills: ["MongoDB", "MySQL", "PostgreSQL"],
+    skills: ["SQL", "PostgreSQL", "MongoDB"],
   },
   // auth
   {
@@ -85,12 +85,12 @@ export const skillCategories = [
     name: "Cloud & Infrastructure",
     skills: ["AWS IAM", "AWS EC2", "AWS RDS", "AWS S3", "AWS CloudWatch"],
   },
-  // IaC
-  // {
-  //   id: "terraform",
-  //   name: "Terraform",
-  //   skills: ["Terraform"],
-  // },
+  // IaC Terraform ========
+  {
+    id: "iac",
+    name: "IaC",
+    skills: ["Terraform"],
+  },
   // containerization
   {
     id: "docker-containerization",

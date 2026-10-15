@@ -66,7 +66,7 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   GitHub: { backgroundColor: "#181717", textColor: "#FFFFFF" },
 
   // Databases
-  SQL: { backgroundColor: "#010101", textColor: "#FFFFFF" },
+  SQL: { backgroundColor: "#00A4BD", textColor: "#FFFFFF" },
   MySQL: { backgroundColor: "#00758F", textColor: "#FFFFFF" },
   PostgreSQL: { backgroundColor: "#336791", textColor: "#FFFFFF" },
   MongoDB: { backgroundColor: "#47A248", textColor: "#FFFFFF" },
@@ -101,7 +101,7 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   "AWS S3": { backgroundColor: "#FF9900", textColor: "#000000" },
   "AWS CloudWatch": { backgroundColor: "#FF9900", textColor: "#000000" },
   // IaC
-  Terraform: { backgroundColor: "#010101", textColor: "#FFFFFF" },
+  Terraform: { backgroundColor: "#7B42BC", textColor: "#FFFFFF" },
 
   // Real-time Communication
   WebSockets: { backgroundColor: "#010101", textColor: "#FFFFFF" },

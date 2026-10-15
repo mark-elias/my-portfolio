@@ -33,6 +33,7 @@ export const projects: Project[] = [
       "AWS EC2",
       "AWS RDS",
       "AWS S3",
+      "Terraform",
       "GitHub Actions",
       "Nginx",
       "Git",
