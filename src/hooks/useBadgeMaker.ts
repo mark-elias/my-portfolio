@@ -66,14 +66,16 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   GitHub: { backgroundColor: "#181717", textColor: "#FFFFFF" },
 
   // Databases
-  SQL: { backgroundColor: "#00A4BD", textColor: "#FFFFFF" },
+  SQL: { backgroundColor: "#000", textColor: "#FFFFFF" },
   MySQL: { backgroundColor: "#00758F", textColor: "#FFFFFF" },
   PostgreSQL: { backgroundColor: "#336791", textColor: "#FFFFFF" },
   MongoDB: { backgroundColor: "#47A248", textColor: "#FFFFFF" },
 
   // ORMs & ODMs
-  Mongoose: { backgroundColor: "#880000", textColor: "#FFFFFF" },
-  Prisma: { backgroundColor: "#0C344B", textColor: "#FFFFFF" },
+  Mongoose: { backgroundColor: "#47A248", textColor: "#FFFFFF" },
+  Prisma: { backgroundColor: "#000", textColor: "#FFFFFF" },
+  Drizzle: { backgroundColor: "#111111", textColor: "#c5f74f" },
+  Migrations: { backgroundColor: "#000", textColor: "#FFFFFF" },
 
   // Authentication
   Clerk: { backgroundColor: "#3B82F6", textColor: "#FFFFFF" },
@@ -95,11 +97,11 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
 
   // Cloud Services & Tools
   AWS: { backgroundColor: "#FF9900", textColor: "#000000" },
-  "AWS IAM": { backgroundColor: "#FF9900", textColor: "#000000" },
-  "AWS EC2": { backgroundColor: "#FF9900", textColor: "#000000" },
-  "AWS RDS": { backgroundColor: "#FF9900", textColor: "#000000" },
-  "AWS S3": { backgroundColor: "#FF9900", textColor: "#000000" },
-  "AWS CloudWatch": { backgroundColor: "#FF9900", textColor: "#000000" },
+  IAM: { backgroundColor: "#FF9900", textColor: "#000000" },
+  EC2: { backgroundColor: "#FF9900", textColor: "#000000" },
+  RDS: { backgroundColor: "#FF9900", textColor: "#000000" },
+  S3: { backgroundColor: "#FF9900", textColor: "#000000" },
+  CloudWatch: { backgroundColor: "#FF9900", textColor: "#000000" },
   // IaC
   Terraform: { backgroundColor: "#7B42BC", textColor: "#FFFFFF" },
 
@@ -121,7 +123,7 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   "Docker Hub": { backgroundColor: "#2496ED", textColor: "#FFFFFF" },
 
   // CI/CD
-  "GitHub Actions": { backgroundColor: "#2088FF", textColor: "#FFFFFF" },
+  "GitHub Actions": { backgroundColor: "#000", textColor: "#FFFFFF" },
 
   // Testing
   Jest: { backgroundColor: "#010101", textColor: "#FFFFFF" },

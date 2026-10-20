@@ -50,10 +50,10 @@
     @apply rounded text-[12px] px-2;
   }
   .skills-container {
-    @apply p-5 flex flex-wrap gap-7;
+    @apply p-2 flex flex-wrap gap-2;
   }
   .skill-card {
-    @apply px-3 pb-3 rounded-lg custom-shadow min-w-[150px];
+    @apply px-3 pb-3 rounded-lg border-2 min-w-[150px];
   }
   .cert-container {
     @apply flex flex-col p-5 gap-7 lg:flex-row lg:flex-wrap;

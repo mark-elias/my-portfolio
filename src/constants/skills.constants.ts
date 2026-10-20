@@ -1,3 +1,149 @@
+export const languageSkillCategories = [
+  {
+    id: "languages",
+    name: "Languages",
+    skills: ["TypeScript", "JavaScript"],
+  },
+  // // testing
+  // {
+  //   id: "testing",
+  //   name: "Testing",
+  //   skills: ["Jest"],
+  // },
+];
+
+export const frontendSkillCategories = [
+  {
+    id: "frontend",
+    name: "Frontend",
+    skills: ["React", "Next.js"],
+  },
+  // CSS & UI
+  {
+    id: "css-frameworks",
+    name: "CSS & UI",
+    skills: ["Tailwind", "shadcn/ui", "Material UI"],
+  },
+  // global state management
+  {
+    id: "global-state-management",
+    name: "Global State",
+    skills: ["Zustand", "Redux Toolkit"],
+  },
+  // data fetching
+  {
+    id: "data-fetching",
+    name: "Data Fetching",
+    skills: ["TanStack Query"],
+  },
+  // {
+  //   id: "data-fetching",
+  //   name: "Data Fetching",
+  //   skills: ["TanStack Query", "Axios"],
+  // },
+  // forms & validation
+  {
+    id: "forms-validation",
+    name: "Forms & Validation",
+    skills: ["React-Hook-Form", "Zod"],
+  },
+];
+
+export const backendSkillCategories = [
+  {
+    id: "backend",
+    name: "Backend",
+    skills: ["Node.js", "Nest.js", "Express.js"],
+  },
+  // request handling & security
+  {
+    id: "request-handling-security",
+    name: "Request Handling & Security",
+    skills: ["Guards", "Rate Limiting"],
+  },
+  // {
+  //   id: "request-handling-security",
+  //   name: "Request Handling & Security",
+  //   skills: ["Guards", "Interceptors", "Middleware", "Rate Limiting"],
+  // },
+  // apis & validation
+  {
+    id: "apis-validation",
+    name: "APIs & Validation",
+    skills: ["REST APIs", "DTO Validation", "Postman"],
+  },
+  // auth
+  {
+    id: "authentication",
+    name: "Authentication",
+    skills: ["JWT", "Passport.js", "bcrypt"],
+  },
+];
+
+export const dataSkillCategories = [
+  {
+    id: "databases",
+    name: "Databases",
+    skills: ["SQL", "PostgreSQL", "MongoDB"],
+  },
+  {
+    id: "orms",
+    name: "ORMs",
+    skills: ["Prisma", "Mongoose", "Drizzle", "Migrations"],
+  },
+];
+
+export const testingSkillCategories = [];
+
+export const devopsAndDeploymentSkillCategories = [
+  // containerization
+  {
+    id: "docker-containerization",
+    name: "Docker",
+    skills: ["Docker", "Docker Compose"],
+  },
+  // CI/CD
+  {
+    id: "cicd",
+    name: "CI/CD",
+    skills: ["GitHub Actions"],
+  },
+  // Version Control
+  {
+    id: "version-control",
+    name: "Version Control",
+    skills: ["Git", "GitHub"],
+  },
+];
+
+export const cloudAndInfraSkillCategories = [
+  // aws
+  {
+    id: "aws",
+    name: "AWS",
+    skills: ["IAM", "EC2", "RDS", "S3"],
+  },
+  // IaC Terraform
+  {
+    id: "iac",
+    name: "Infra as Code",
+    skills: ["Terraform"],
+  },
+  // linux & server admin
+  {
+    id: "linux-and-server-admin",
+    name: "Linux & Servers",
+    skills: ["Linux", "Terminal/CLI", "SSH", "Vim"],
+  },
+  // networking & security
+  {
+    id: "networking-and-security",
+    name: "Networking & Security",
+    skills: ["Nginx", "SSL", "DNS", "CORS"],
+  },
+];
+
+// all the skills categories
 export const skillCategories = [
   // fundamentals
   {
@@ -116,12 +262,6 @@ export const skillCategories = [
     skills: ["Nginx", "SSL", "DNS", "CORS"],
   },
 
-  // {
-  //   id: "orms-odms",
-  //   name: "ODMs & ORMs",
-  //   skills: ["Mongoose", "Prisma"],
-  // },
-
   // payments
   // {
   //   id: "payments",
@@ -134,13 +274,6 @@ export const skillCategories = [
   //   id: "real-time-communication",
   //   name: "Real-time Communication",
   //   skills: ["WebSockets"],
-  // },
-
-  // deployment
-  // {
-  //   id: "deployment",
-  //   name: "Deployment",
-  //   skills: ["Vercel", "Render", "GitHub Pages"],
   // },
 
   // collaboration
