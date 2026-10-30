@@ -126,8 +126,9 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   "GitHub Actions": { backgroundColor: "#000", textColor: "#FFFFFF" },
 
   // Testing
-  Jest: { backgroundColor: "#010101", textColor: "#FFFFFF" },
-  Vitest: { backgroundColor: "#010101", textColor: "#FFFFFF" },
+  Jest: { backgroundColor: "#C21325", textColor: "#FFFFFF" },
+  Vitest: { backgroundColor: "#6E9F18", textColor: "#FFFFFF" },
+  "Unit Tests": { backgroundColor: "#000", textColor: "#FFFFFF" },
 
   // Networking & Security
   Nginx: { backgroundColor: "#009639", textColor: "#FFFFFF" },

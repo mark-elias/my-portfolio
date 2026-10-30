@@ -1,6 +1,5 @@
 // constants
 import {
-  skillCategories,
   skillsToLearn,
   frontendSkillCategories,
   backendSkillCategories,
@@ -50,6 +49,12 @@ function SkillsPage() {
         <p>Across the Stack</p>
         <div className="skills-container">
           {languageSkillCategories.map((category) => (
+            <div key={category.id} className="skill-card">
+              <p>{category.name}</p>
+              <BadgeList badgeList={category.skills} />
+            </div>
+          ))}
+          {testingSkillCategories.map((category) => (
             <div key={category.id} className="skill-card">
               <p>{category.name}</p>
               <BadgeList badgeList={category.skills} />

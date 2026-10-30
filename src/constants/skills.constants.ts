@@ -4,12 +4,6 @@ export const languageSkillCategories = [
     name: "Languages",
     skills: ["TypeScript", "JavaScript"],
   },
-  // // testing
-  // {
-  //   id: "testing",
-  //   name: "Testing",
-  //   skills: ["Jest"],
-  // },
 ];
 
 export const frontendSkillCategories = [
@@ -89,11 +83,17 @@ export const dataSkillCategories = [
   {
     id: "orms",
     name: "ORMs",
-    skills: ["Prisma", "Mongoose", "Drizzle", "Migrations"],
+    skills: ["Drizzle", "Mongoose", "Prisma", "Migrations"],
   },
 ];
 
-export const testingSkillCategories = [];
+export const testingSkillCategories = [
+  {
+    id: "testing",
+    name: "Testing",
+    skills: ["Vitest", "Unit Tests"],
+  },
+];
 
 export const devopsAndDeploymentSkillCategories = [
   // containerization
