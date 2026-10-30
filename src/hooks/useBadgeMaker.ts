@@ -127,8 +127,8 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
 
   // Testing
   Jest: { backgroundColor: "#C21325", textColor: "#FFFFFF" },
-  Vitest: { backgroundColor: "#6E9F18", textColor: "#FFFFFF" },
-  "Unit Tests": { backgroundColor: "#000", textColor: "#FFFFFF" },
+  Vitest: { backgroundColor: "#16171d", textColor: "#38cc6e" },
+  "Unit Tests": { backgroundColor: "#000", textColor: "#FFF" },
 
   // Networking & Security
   Nginx: { backgroundColor: "#009639", textColor: "#FFFFFF" },
