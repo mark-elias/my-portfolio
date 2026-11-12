@@ -83,7 +83,7 @@ export const dataSkillCategories = [
   {
     id: "orms",
     name: "ORMs",
-    skills: ["Drizzle", "Mongoose", "Prisma", "Migrations"],
+    skills: ["Drizzle", "Mongoose", "Prisma"],
   },
 ];
 
@@ -91,7 +91,7 @@ export const testingSkillCategories = [
   {
     id: "testing",
     name: "Testing",
-    skills: ["Vitest", "Unit Tests"],
+    skills: ["Vitest"],
   },
 ];
 
@@ -133,13 +133,13 @@ export const cloudAndInfraSkillCategories = [
   {
     id: "linux-and-server-admin",
     name: "Linux & Servers",
-    skills: ["Linux", "Terminal/CLI", "SSH", "Vim"],
+    skills: ["Linux", "SSH", "Vim"],
   },
   // networking & security
   {
     id: "networking-and-security",
     name: "Networking & Security",
-    skills: ["Nginx", "SSL", "DNS", "CORS"],
+    skills: ["DNS","Nginx", "SSL", "CORS"],
   },
 ];
 

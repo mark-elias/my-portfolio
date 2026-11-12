@@ -39,7 +39,7 @@ export const projects: Project[] = [
       "Git",
       "Passport.js",
       "JWT",
-      "Cookies",
+      "bcrypt",
       "Tailwind",
       "shadcn/ui",
       "TanStack Query",

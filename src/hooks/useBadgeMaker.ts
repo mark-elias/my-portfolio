@@ -98,9 +98,13 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   // Cloud Services & Tools
   AWS: { backgroundColor: "#FF9900", textColor: "#000000" },
   IAM: { backgroundColor: "#FF9900", textColor: "#000000" },
+  "AWS IAM": { backgroundColor: "#FF9900", textColor: "#000000" },
   EC2: { backgroundColor: "#FF9900", textColor: "#000000" },
+  "AWS EC2": { backgroundColor: "#FF9900", textColor: "#000000" },
   RDS: { backgroundColor: "#FF9900", textColor: "#000000" },
+  "AWS RDS": { backgroundColor: "#FF9900", textColor: "#000000" },
   S3: { backgroundColor: "#FF9900", textColor: "#000000" },
+  "AWS S3": { backgroundColor: "#FF9900", textColor: "#000000" },
   CloudWatch: { backgroundColor: "#FF9900", textColor: "#000000" },
   // IaC
   Terraform: { backgroundColor: "#7B42BC", textColor: "#FFFFFF" },

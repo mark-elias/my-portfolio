@@ -19,6 +19,21 @@ function SkillsPage() {
 
       <h3 className="border-b-8 border-b-purple-500">Fullstack Engineering</h3>
       <section>
+        <p>Across the Stack</p>
+        <div className="skills-container">
+          {languageSkillCategories.map((category) => (
+            <div key={category.id} className="skill-card">
+              <p>{category.name}</p>
+              <BadgeList badgeList={category.skills} />
+            </div>
+          ))}
+          {testingSkillCategories.map((category) => (
+            <div key={category.id} className="skill-card">
+              <p>{category.name}</p>
+              <BadgeList badgeList={category.skills} />
+            </div>
+          ))}
+        </div>
         <p>Frontend</p>
         <div className="skills-container">
           {frontendSkillCategories.map((category) => (
@@ -40,21 +55,6 @@ function SkillsPage() {
         <p>Data</p>
         <div className="skills-container">
           {dataSkillCategories.map((category) => (
-            <div key={category.id} className="skill-card">
-              <p>{category.name}</p>
-              <BadgeList badgeList={category.skills} />
-            </div>
-          ))}
-        </div>
-        <p>Across the Stack</p>
-        <div className="skills-container">
-          {languageSkillCategories.map((category) => (
-            <div key={category.id} className="skill-card">
-              <p>{category.name}</p>
-              <BadgeList badgeList={category.skills} />
-            </div>
-          ))}
-          {testingSkillCategories.map((category) => (
             <div key={category.id} className="skill-card">
               <p>{category.name}</p>
               <BadgeList badgeList={category.skills} />

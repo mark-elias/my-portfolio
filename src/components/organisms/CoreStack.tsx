@@ -2,16 +2,15 @@
 import AnimatedBadgeList from "@/components/organisms/AnimatedBadgeList";
 
 const coreStack = [
-  "Git",
   "TypeScript",
-  "React",
-  "Next.js",
   "Node.js",
+  "React",
   "Nest.js",
+  "Git",
   "SQL",
+  "Docker",
   "AWS",
   "Terraform",
-  "Docker",
 ];
 
 function CoreStack() {
